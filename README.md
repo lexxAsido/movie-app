@@ -2,6 +2,7 @@
 
 A simple React/Next.js application that allows users to search for movies using the OMDb API. The app fetches and displays movie details such as the title, poster, release date, and IMDb rating.
 
+
 🚀 Features
 
 ✅ Search for movies by title
@@ -13,6 +14,7 @@ A simple React/Next.js application that allows users to search for movies using 
 ✅ Loading state with an animated spinner
 
 ✅ Responsive UI with Tailwind CSS
+
 
 🛠️ Technologies Used
 - Next.js (React framework)
@@ -26,6 +28,7 @@ A simple React/Next.js application that allows users to search for movies using 
 
 - React Icons (For UI enhancements) – Install using:
     npm install react-icons
+
 
 📌 Getting Started
 
@@ -44,6 +47,7 @@ npm install
 npm run dev
 
 Now, open [http://localhost:3000] in your browser.
+
 
 📜 Notes
 
