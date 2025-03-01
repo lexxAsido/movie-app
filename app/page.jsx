@@ -64,10 +64,12 @@ export default function Home() {
       {movie && (
         
         <div className="mt-6 p-4 bg-white rounded-lg shadow-lg max-w-md border text-black shadow-white">
-          <img src={movie.Poster} alt={movie.Title} className="w-full rounded-md flex justify-center cursor-pointer hover:scale-95" />
+          <img src={movie.Poster} alt={movie.Title} className="w-full rounded-md flex justify-center cursor-pointer hover:scale-95 transition-all" />
           <h2 className="text-2xl font-bold mt-2 max-md:text-sm">Movie Title: {movie.Title}</h2>
           <p className="max-md:text-sm"><span className="font-semibold">Release Date:</span> {movie.Released}</p>
           <p className="flex items-center max-md:text-sm gap-2"><span className="font-semibold flex items-center">Rating <IoIosStar className="text-yellow-500" />:</span>{movie.imdbRating}</p>
+
+     
         </div>
       )}
       {/* </div> */}
